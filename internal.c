@@ -1,9 +1,9 @@
 #include "internal.h"
-#include "cJSON.h"
-#include "raylib-5.5_macos/include/raylib.h"
+#include "include/cJSON.h"
+#include "include/raylib.h"
 
 #define RAYGUI_IMPLEMENTATION
-#include "raylib-5.5_macos/include/raylib.h"
+#include "include/raylib.h"
 
 void CreateConfig(void) {
   // 0 = start, 1 = API, 2 = offline username, 3 autoupdater

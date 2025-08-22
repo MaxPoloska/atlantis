@@ -1,10 +1,10 @@
 #include <unistd.h>
-#include "cJSON.h"
+#include "include/cJSON.h"
 #include "internal.h"
-#include "raylib-5.5_macos/include/raylib.h"
+#include "include/raylib.h"
 
 #define RAYGUI_IMPLEMENTATION
-#include "raylib-5.5_macos/include/raygui.h"
+#include "include/raygui.h"
 
 int main(void) {
   // Check if config exists if not start config loop
